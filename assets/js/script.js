@@ -1,0 +1,1 @@
+var api = 'https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={15abc26a7a1cc1d850bcb6f74db6a06b}'
