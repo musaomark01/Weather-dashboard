@@ -10,4 +10,5 @@ Type the city you wish to look up
 <img src="assets/images/Screenshot 2023-09-19 041228.png">
 
 
+
 webpage: https://musaomark01.github.io/Weather-dashboard/
