@@ -6,7 +6,7 @@ var apiKey = '7275518d08ae835bf6361e49e3af30c0';
 
 $('#searchBtn').on('click', function () {
   var city = searchCityInput.val();
-  var geocodingUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
+  var geocodingUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
 
   fetch(geocodingUrl)
     .then(function (response) {
