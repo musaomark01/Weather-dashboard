@@ -12,61 +12,15 @@
     <header class="text-center fs-1 text-white bg-primary mb-3 p-2">
         <h1> Weather Dashboard</h1>
     </header>
-    <main class="d-flex flex-row justify-content-between d-flex flex-wrap p-3"> 
-        <section class="d-flex flex-column p-3 g-md-3">
-             <h2 class="fs-2">Search City</h2>
-             <input type="text" placeholder="Search City">
-             <button class="text-white bg-primary" id="searchBtn">Search</button>
-             <section id="cityName">
-            </section>
-        </section>
-        <h2 id="cityName" class="today fs-1" ></h2>
-        <section class="weather fs-2 border-black">
-            
-            <p id="date" class="today"></p>
-            <img id="weatherIcon" class="today" src="">
-            <p id="weatherIcon" class="today"></p>
-            <p id="temp" class="today"></p>
-            <p id="humidity" id="humidity" class="today"></p>
-            <p id="wind" id="wind" class="today"></p>
-        </section>
-
-        <section class="weather fs-2">
-            <p id="date" class="dayone"></p>
-            <img id="weatherIcon" class="dayone" src="">
-            <p id="temp" class="dayone"></p>
-            <p id="humidity" id="humidity" class="dayone"></p>
-            <p id="wind" id="wind" class="dayone"></p>
-        </section>
-        <section class="weather fs-2">
-            <p id="date" class="daytwo"></p>
-            <img id="weatherIcon" class="daytwo" src="">
-            <p id="temp" class="daytwo"></p>
-            <p id="humidity" id="humidity" class="daytwo"></p>
-            <p id="wind" id="wind" class="daytwo"></p>
-        </section>
-        <section class="weather fs-2">
-            <p id="date" class="daythree"></p>
-            <img id="weatherIcon" class="daythree" src="">
-            <p id="temp" class="daythree"></p>
-            <pid="humidity" id="humidity" class="daythree"></p>
-            <p id="wind" id="wind" class="daythree"></p>
-        </section>
-        <section class="weather fs-2">
-            <p id="date" class="dayfour"></p>
-            <img id="weatherIcon" class="dayfour" src="">
-            <p id="temp" class="dayfour"></p>
-            <p id="humidity" id="humidity" class="dayfour"></p>
-            <p id="wind" id="wind" class="dayfour"></p>
-        </section>
-        <section class="weather fs-2">
-            <p id="date" class="dayfive"></p>
-            <img id="weatherIcon" class="dayfive" src="">
-            <p id="temp" class="dayfive"></p>
-            <p id="humidity" id="humidity" class="dayfive"></p>
-            <p id="wind" id="wind" class="dayfive"></p>
-        </section>
-    </section>
+    <main> 
+        <h2>Search City</h2>
+        <div class="d-flex">
+            <input type="text"placeholder="Search City">
+            <button class="text-white bg-primary fs-4" id="searchBtn">Search</button>
+        </div>
+        <div id="savedCity" class="d-flex" ></div>
+        <div class="weatherDisplayToday"></div>
+        <div class="weatherDisplay"></div>
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="assets/js/script.js"></script>
