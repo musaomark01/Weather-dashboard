@@ -7,6 +7,7 @@ function displayWeather() {
 // when the search button is clicked, the value of the input is used to search for the city using mapquest api
 $('#searchBtn').on('click', function () {
   var city = searchCityInput.val();
+  
   var geocodingUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
 // the input value is used to get the latitude and longitude of the city using mapquest api
   fetch(geocodingUrl)
@@ -111,5 +112,3 @@ function displayCityBtn() {
 
 displayWeather();
 displayCityBtn();
-
- 
