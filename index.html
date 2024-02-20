@@ -12,15 +12,13 @@
     <header class="text-center fs-1 text-white bg-primary mb-3 p-2">
         <h1> Weather Dashboard</h1>
     </header>
-    <main> 
-        <h2>Search City</h2>
-        <div class="d-flex">
+    <main class="d-flex align-items-center align-self-stretch flex-column">
+        <div class="d-flex w-100%">
             <input type="text"placeholder="Search City">
             <button class="text-white bg-primary fs-4" id="searchBtn">Search</button>
         </div>
-        <div id="savedCity" class="d-flex" ></div>
-        <div class="weatherDisplayToday"></div>
-        <div class="weatherDisplay"></div>
+        <ul id="savedCity" class="d-flex flex-wrap mt-3" ></ul>
+        <div class="weatherDisplay d-flex justify-content-center flex-wrap"></div>
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="assets/js/script.js"></script>
